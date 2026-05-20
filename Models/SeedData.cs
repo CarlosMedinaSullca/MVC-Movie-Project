@@ -50,6 +50,30 @@ public static class SeedData
                     Genre = "Western",
                     Rating = "R",
                     Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "The lord of the rings",
+                    ReleaseDate = DateTime.Parse("2001-12-10"),
+                    Genre = "Fantasy",
+                    Rating = "G",
+                    Price = 8.99M
+                },
+                new Movie
+                {
+                    Title = "A beautiful mind",
+                    ReleaseDate = DateTime.Parse("2002-03-01"),
+                    Genre = "Biografic drama",
+                    Rating = "GP",
+                    Price = 5.99M
+                },
+                new Movie
+                {
+                    Title = "Mouse hunt",
+                    ReleaseDate = DateTime.Parse("1997-12-19"),
+                    Genre = "Comedy",
+                    Rating = "G",
+                    Price = 7.99M
                 }
             );
             context.SaveChanges();
